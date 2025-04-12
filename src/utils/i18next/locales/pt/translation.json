@@ -1,0 +1,45 @@
+{
+  "projects": "Projetos",
+  "aboutMe": "Sobre Mim",
+  "contact": "Contato",
+  "welcome1": "Oi, eu sou",
+  "welcome2": "e sou Desenvolvedor Frontend, moldando a web uma linha de código por vez.",
+  "project1": {
+    "title": "codeHire",
+    "description": "Uma plataforma para profissionais de tecnologia criarem currículos otimizados para passar por sistemas de rastreamento de candidatos (ATS)."
+  },
+  "project2": {
+    "title": "Projeto de Autenticação",
+    "description": "Sistema de autenticação com Firebase, permitindo login com e-mail/senha e conta Google."
+  },
+  "project3": {
+    "title": "Sky Watch",
+    "description": "Um aplicativo que fornece dados meteorológicos em tempo real usando WeatherAPI e GeolocationAPI."
+  },
+  "deployed": "Publicado",
+  "repository": "Repositório",
+  "call": "Curtiu o que viu? Vamos conversar!",
+  "linkedin": "Meu perfil no LinkedIn",
+  "github": "Meu repositório no GitHub",
+  "copied": "Copiado!",
+  "download": "Baixar meu CV",
+  "curiosity": "curiosidade",
+  "empathy": "empatia",
+  "languages": "idiomas",
+  "problem solving": "resolução de problemas",
+  "meditation": "meditação",
+  "share knowlodge": "compartilhar conhecimento",
+  "inclusivity": "inclusão",
+  "world travelling": "viagens pelo mundo",
+  "positive mindset": "mentalidade positiva",
+  "communication": "comunicação",
+  "coffee": "café",
+  "fast learner": "aprendizado rápido",
+  "creativity": "criatividade",
+  "team player": "espírito de equipe",
+  "organized": "organização",
+  "self growth": "evolução pessoal",
+  "adaptability": "adaptabilidade",
+  "critical": "pensamento crítico",
+  "myself": "Mais que um Dev"
+}

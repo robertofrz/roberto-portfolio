@@ -1,0 +1,45 @@
+{
+  "projects": "Projects",
+  "aboutMe": "About Me",
+  "contact": "Contact",
+  "welcome1": "Hi I'm",
+  "welcome2": "and I'm a Frontend Developer crafting the web, one line at a time.",
+  "project1": {
+    "title": "codeHire",
+    "description": "A platform for tech professionals to create resumes optimized to pass ATS."
+  },
+  "project2": {
+    "title": "Authentication Project",
+    "description": "A Firebase-based auth system with email/password and Google login support."
+  },
+  "project3": {
+    "title": "Sky Watch",
+    "description": "An App that provides real-time weather data using WeatherAPI and GeolocationAPI."
+  },
+  "deployed": "Deployed",
+  "repository": "Repository",
+  "call": "Hit me up, let’s make things happen!",
+  "linkedin": "My LinkedIn profile",
+  "github": "My GitHub repository",
+  "copied": "Copied!",
+  "download": "Download my CV",
+  "curiosity": "curiosity",
+  "empathy": "empathy",
+  "languages": "languages",
+  "problem solving": "problem solving",
+  "meditation": "meditation",
+  "share knowlodge": "share knowlodge",
+  "inclusivity": "inclusivity",
+  "world travelling": "world travelling",
+  "positive mindset": "positive mindset",
+  "communication": "communication",
+  "coffee": "coffee",
+  "fast learner": "fast learner",
+  "creativity": "creativity",
+  "critical": "critical thinking",
+  "team player": "team player",
+  "organized": "organized",
+  "self growth": "self growth",
+  "adaptability": "adaptability",
+  "myself": "More Than Just a Dev"
+}

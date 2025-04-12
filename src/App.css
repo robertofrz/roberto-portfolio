@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Rosehot";
+  src: url("/fonts/Rosehot.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-Andika {
+  font-family: "Andika", sans-serif;
+}
+.font-Inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-Rosehot {
+  font-family: "Rosehot", sans-serif;
+}
+
+.my-green {
+  color: #52662b;
+}
+.bg-my-green {
+  background-color: #41521f;
+}
+.customBtn {
+  padding: 0.5rem; /* p-2 */
+  background-color: #41521f;
+  color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(107, 114, 128, 0.5);
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.customBtn:hover {
+  background-color: #647a37;
+  transform: translateY(-2px);
+}
+
+.customBtn:active {
+  background-color: #2b3615;
+}
+
+.customBtn:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px rgba(72, 72, 48, 0.5); /* mesma cor base com opacidade */
+}

@@ -5,6 +5,7 @@ import Stack from "./components/Stack";
 import Welcome from "./components/Welcome";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import "./utils/i18next/i18n";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <AboutMe />
       <Contact />
+      <Footer />
     </div>
   );
 }

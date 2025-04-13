@@ -16,7 +16,6 @@ function Stack(): React.JSX.Element {
     "React-Query",
     "React-Router",
     "React",
-    "Sass",
     "Tailwind",
     "TypeScript",
     "Vercel",

@@ -10,7 +10,7 @@ function Header(): React.JSX.Element {
   }
 
   return (
-    <header className="flex justify-between fixed w-[96%] my-green p-4 h-16 font-Rosehot z-10 backdrop-blur-sm bg-white/5">
+    <header className="flex justify-between fixed w-[96%] my-green p-4 h-16 font-Rosehot z-10 backdrop-blur-sm">
       <div className="my-green">
         <motion.button
           whileHover={{ scale: 1.1 }}

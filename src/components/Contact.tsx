@@ -24,7 +24,7 @@ function Contact(): React.JSX.Element {
   return (
     <div
       id="contact"
-      className="w-[95vw] sm:w-[70vw] h-[80vh] sm:h-[80vh] text-center font-Rosehot text-gray-500 mt-60 mb-20 flex flex-col sm:flex-row items-center justify-evenly text-2xl "
+      className="w-[95vw] sm:w-[90vw] h-[80vh] sm:h-[80vh] text-center font-Rosehot text-gray-500 mt-60 mb-20 flex flex-col sm:flex-row items-center justify-evenly text-2xl "
     >
       <img src="/memojis/call.png" alt="call memoji" className="w-60" />
       <div className="flex flex-col items-center gap-10 h-[50%] w-[60%] ">
@@ -46,7 +46,7 @@ function Contact(): React.JSX.Element {
                     src="/icons/copy-icon.png"
                     alt="copy icon"
                     className="pr-1 opacity-30"
-                    title="Copy email address"
+                    title={t("email")}
                   />
                 </button>
               </div>
@@ -72,7 +72,7 @@ function Contact(): React.JSX.Element {
                     src="/icons/copy-icon.png"
                     alt="copy icon"
                     className="pr-1 opacity-30"
-                    title="Copy phone number"
+                    title={t("phone")}
                   />
                 </button>
               </div>

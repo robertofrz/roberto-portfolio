@@ -43,5 +43,8 @@
   "critical": "pensamento crítico",
   "myself": "Mais que um Dev",
   "email": "Copiar email",
-  "phone": "Copiar telefone"
+  "phone": "Copiar telefone",
+  "cv": "/cv/robertocv-pt.pdf",
+  "light": "claro",
+  "dark": "escuro"
 }

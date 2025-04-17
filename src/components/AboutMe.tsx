@@ -14,9 +14,9 @@ function AboutMe(): React.JSX.Element {
   return (
     <div
       id="aboutMe"
-      className="scroll-mt-16 w-[95vw] h-[60vh] sm:h-[90vh] text-center text-gray-600 font-Andika mt-60 mb-20"
+      className="scroll-mt-16 w-[95vw] h-[60vh] sm:h-[90vh] text-center text-zinc-600 dark:text-zinc-300 font-Andika mt-60 mb-20"
     >
-      <h2 className="text-center text-4xl sm:text-5xl my-green font-Rosehot mb-12 sm:mb-22 ">
+      <h2 className="text-center m-auto w-[80vw] text-4xl sm:text-5xl my-green font-Rosehot mb-12 sm:mb-22 ">
         {t("myself")}
       </h2>
       <div className="grid grid-cols-3 h-full gap-2">

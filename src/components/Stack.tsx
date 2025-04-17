@@ -65,7 +65,7 @@ function Stack(): React.JSX.Element {
             <motion.img
               src={`/logos/${item}.png`}
               alt={`${item} logo`}
-              className="w-full h-full object-contain opacity-10"
+              className="w-full h-full object-contain opacity-10 dark:invert"
               title={item.replace("-", " ")}
               whileHover={{ opacity: 0.8 }}
             />

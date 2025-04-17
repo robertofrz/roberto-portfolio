@@ -24,9 +24,13 @@ function Contact(): React.JSX.Element {
   return (
     <div
       id="contact"
-      className="w-[95vw] sm:w-[90vw] h-[80vh] sm:h-[80vh] text-center font-Rosehot text-gray-500 mt-60 mb-20 flex flex-col sm:flex-row items-center justify-evenly text-2xl "
+      className="w-[95vw] sm:w-[90vw] h-[80vh] sm:h-[80vh] text-center font-Rosehot text-zinc-500 mt-60 mb-20 flex flex-col sm:flex-row items-center justify-evenly text-2xl "
     >
-      <img src="/memojis/call.png" alt="call memoji" className="w-60" />
+      <img
+        src="/memojis/call.png"
+        alt="making a call memoji"
+        className="w-60"
+      />
       <div className="flex flex-col items-center gap-10 h-[50%] w-[60%] ">
         <h2 className="text-4xl sm:text-6xl w-[80vw] sm:w-full my-green">
           {t("call")}
@@ -34,8 +38,8 @@ function Contact(): React.JSX.Element {
         <div className="flex flex-col sm:flex-row justify-evenly items-center gap-10 w-full h-[80%]   ">
           <div className="flex flex-col text-xl gap-2 items-center w-[80vw] sm:w-[60%] font-Andika">
             <div>
-              <div className=" rounded-xl flex gap-2 shadow shadow-gray-200  border border-gray-200">
-                <p className="p-1.5 h-[100%] m-0 border-r border-r-gray-200">
+              <div className=" rounded-xl flex gap-2 shadow shadow-zinc-200  border border-zinc-200  dark:border-zinc-900 dark:shadow-zinc-900">
+                <p className="p-1.5 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500">
                   robertofrz94@gmail.com
                 </p>
                 <button
@@ -45,14 +49,14 @@ function Contact(): React.JSX.Element {
                   <img
                     src="/icons/copy-icon.png"
                     alt="copy icon"
-                    className="pr-1 opacity-30"
+                    className="pr-1 opacity-30 dark:opacity-50"
                     title={t("email")}
                   />
                 </button>
               </div>
 
               <p
-                className={`text-gray-400 text-lg transition-opacity duration-300 ${
+                className={`text-zinc-400 dark:text-zinc-700 text-lg transition-opacity duration-300 ${
                   copiedEmail ? "opacity-100" : "opacity-0"
                 }`}
               >
@@ -60,8 +64,8 @@ function Contact(): React.JSX.Element {
               </p>
             </div>
             <div>
-              <div className=" rounded-xl flex gap-2 shadow shadow-gray-200 border border-gray-200">
-                <p className="p-1.5 h-[100%] m-0 border-r border-r-gray-200">
+              <div className=" rounded-xl flex gap-2 shadow shadow-zinc-200  border border-zinc-200  dark:border-zinc-900 dark:shadow-zinc-900">
+                <p className="p-1.5 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500">
                   +5511937274647
                 </p>
                 <button
@@ -71,13 +75,13 @@ function Contact(): React.JSX.Element {
                   <img
                     src="/icons/copy-icon.png"
                     alt="copy icon"
-                    className="pr-1 opacity-30"
+                    className="pr-1 opacity-30 dark:opacity-50"
                     title={t("phone")}
                   />
                 </button>
               </div>
               <p
-                className={`text-gray-400 text-lg transition-opacity duration-300 ${
+                className={`text-zinc-400 dark:text-zinc-700 text-lg transition-opacity duration-300 ${
                   copiedPhone ? "opacity-100" : "opacity-0"
                 }`}
               >
@@ -94,7 +98,7 @@ function Contact(): React.JSX.Element {
               <img
                 src="/logos/linkedin.png"
                 alt="linkedin logo"
-                className="opacity-40"
+                className="opacity-40 dark:invert"
                 title={t("linkedin")}
               />
             </a>
@@ -108,15 +112,15 @@ function Contact(): React.JSX.Element {
                 src="/logos/GitHub.png"
                 alt="github logo"
                 title={t("github")}
-                className="opacity-40"
+                className="opacity-40 dark:invert"
               />
             </a>
 
-            <a href="/cv/codeHire.pdf" download className="cursor-pointer">
+            <a href={t("cv")} download className="cursor-pointer">
               <img
                 src="/icons/cv.png"
                 alt="cv icon"
-                className="opacity-40"
+                className="opacity-40 dark:invert"
                 title={t("download")}
               />
             </a>

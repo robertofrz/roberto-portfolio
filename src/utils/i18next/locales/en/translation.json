@@ -43,5 +43,8 @@
   "adaptability": "adaptability",
   "myself": "More Than Just a Dev",
   "email": "Copy email address",
-  "phone": "Copy phone number"
+  "phone": "Copy phone number",
+  "cv": "/cv/robertocv-en.pdf",
+  "light": "light",
+  "dark": "dark"
 }

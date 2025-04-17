@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import aboutMeArray from "./AboutMeArray";
+import aboutMeArray from "../data/AboutMeArray";
 import { motion } from "framer-motion";
 
 function AboutMe(): React.JSX.Element {

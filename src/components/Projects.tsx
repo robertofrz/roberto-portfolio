@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import projects from "./ProjectsArray";
+import projects from "../data/ProjectsArray";
 
 function Projects(): React.JSX.Element {
   const { t } = useTranslation();

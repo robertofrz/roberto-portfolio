@@ -10,17 +10,16 @@ function Projects(): React.JSX.Element {
       id="projects"
       className="scroll-mt-16 w-[90vw] sm:w-[60vw] flex flex-col justify-evenly items-center gap-12 mt-40  text-gray-500 font-Montserrat"
     >
-      <h2 className="font-Sen font-medium text-[26px] w-[90vw] sm:text-5xl my-green flex justify-center items-center -mb-2">
-        &lt;{t("projects")} onChange=&#123;<span className="m-1"></span>
+      <div className="flex flex-col justify-center items-center gap-2">
         <img
           src="/memojis/coding.png"
           alt="working on laptop memoji"
-          className="w-10 sm:w-20 "
+          className="w-20"
         />
-        <span className="m-1"></span>
-        &#125; /&gt;
-      </h2>
-
+        <h2 className="font-Sen font-medium text-5xl w-[90vw] sm:text-5xl my-green flex justify-center items-center -mb-2">
+          &lt;{t("projects")} /&gt;
+        </h2>
+      </div>
       {projects.map((project) => (
         <div
           key={project.title}

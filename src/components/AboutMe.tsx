@@ -1,82 +1,38 @@
 import { useTranslation } from "react-i18next";
-import aboutMeArray from "../data/AboutMeArray";
-import { motion } from "framer-motion";
 
 function AboutMe(): React.JSX.Element {
   const { t } = useTranslation();
 
-  const animation = {
-    initial: { opacity: 0.6 },
-    whileHover: { scale: 1.1, opacity: 1, color: "#52662b" },
-    transition: { type: "spring", stiffness: 300, damping: 20 },
-  };
-
   return (
-    <div
-      id="aboutMe"
-      className="scroll-mt-16 w-[95vw] h-[60vh] sm:h-[90vh] text-center text-zinc-600 dark:text-zinc-300 font-Andika mt-60 mb-20"
-    >
-      <h2 className="text-center m-auto w-[80vw] text-4xl sm:text-5xl my-green font-Rosehot mb-12 sm:mb-22 ">
-        {t("myself")}
+    <div className="w-[90vw] sm:w-[60vw] mb-12 mt-40 flex flex-col items-center m-auto">
+      <h2 className="font-Sen my-green text-5xl text-center font-medium mb-8">
+        {t("aboutMe")}
       </h2>
-      <div className="grid grid-cols-3 h-full gap-2">
-        <div className="h-full flex flex-col justify-between items-center">
-          {aboutMeArray[0].map((item) => (
-            <motion.p
-              key={item.translation}
-              className={item.style}
-              initial={animation.initial}
-              whileHover={animation.whileHover}
-              transition={animation.transition}
-            >
-              {t(item.translation)}
-            </motion.p>
-          ))}
-        </div>
-        <div className="h-full flex flex-col justify-between items-center">
-          {aboutMeArray[1].map((item) => (
-            <motion.p
-              key={item.translation}
-              className={item.style}
-              initial={animation.initial}
-              whileHover={animation.whileHover}
-              transition={animation.transition}
-            >
-              {t(item.translation)}
-            </motion.p>
-          ))}
 
+      <div className="flex flex-col justify-center items-center  p-6 rounded-xl dark:bg-zinc-900">
+        <div className="flex flex-col sm:flex-row justify-center sm:-mb-2 mb-10  items-center gap-8">
           <img
-            src="/memojis/meditating.png"
+            src="./memojis/meditating.png"
             alt="meditating memoji"
-            className="w-70 my-6"
+            className="w-55 -mb-4 -mt-6"
           />
-
-          {aboutMeArray[2].map((item) => (
-            <motion.p
-              key={item.translation}
-              className={item.style}
-              initial={animation.initial}
-              whileHover={animation.whileHover}
-              transition={animation.transition}
-            >
-              {t(item.translation)}
-            </motion.p>
-          ))}
+          <p className="font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify">
+            {t("personal1")}
+          </p>
         </div>
-        <div className="h-full flex flex-col justify-between items-center">
-          {aboutMeArray[3].map((item) => (
-            <motion.p
-              key={item.translation}
-              className={item.style}
-              initial={animation.initial}
-              whileHover={animation.whileHover}
-              transition={animation.transition}
-            >
-              {t(item.translation)}
-            </motion.p>
-          ))}
+        <div className="flex justify-center flex-col sm:flex-row mb-8 items-center gap-8">
+          <p className="order-2 sm:order-1 font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify">
+            {t("personal2")}
+          </p>
+          <img
+            src="./passport.png"
+            alt="image of a laptop and a passport on top of a world map"
+            className="w-60 rounded order-1 sm:order-2"
+          />
         </div>
+        <p className="font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify">
+          {t("personal3")}
+        </p>
       </div>
     </div>
   );

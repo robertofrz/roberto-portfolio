@@ -8,25 +8,23 @@ function Projects(): React.JSX.Element {
   return (
     <div
       id="projects"
-      className="scroll-mt-16 w-[90vw] sm:w-[60vw] flex flex-col justify-evenly items-center gap-12 mt-40 text-gray-500 font-Andika"
+      className="scroll-mt-16 w-[90vw] sm:w-[60vw] flex flex-col justify-evenly items-center gap-12 mt-40  text-gray-500 font-Montserrat"
     >
-      <div className="w-full h-[min-content] flex justify-center mb-8 items-center gap-2">
-        <h2 className="font-Rosehot text-3xl sm:text-6xl my-green">
-          &lt;{t("projects").toLowerCase()}&gt;
-        </h2>
+      <h2 className="font-Sen font-medium text-[26px] w-[90vw] sm:text-5xl my-green flex justify-center items-center -mb-2">
+        &lt;{t("projects")} onChange=&#123;<span className="m-1"></span>
         <img
           src="/memojis/coding.png"
           alt="working on laptop memoji"
-          className="w-20 sm:w-25"
+          className="w-10 sm:w-20 "
         />
-        <h2 className="font-Rosehot text-3xl sm:text-6xl my-green">
-          &lt;/{t("projects").toLowerCase()}&gt;
-        </h2>
-      </div>
+        <span className="m-1"></span>
+        &#125; /&gt;
+      </h2>
+
       {projects.map((project) => (
         <div
           key={project.title}
-          className=" w-full flex-shrink-0 border border-gray-300 rounded-xl shadow-sm dark:shadow-zinc-900 sm:h-full flex flex-col justify-between items-center dark:border-zinc-800"
+          className=" w-full flex-shrink-0 border border-gray-300 rounded-xl shadow-lg shadow-zinc-200 dark:shadow-zinc-950 sm:h-full flex flex-col justify-between items-center dark:border-zinc-800"
         >
           <motion.img
             src={project.screenshot}
@@ -36,11 +34,11 @@ function Projects(): React.JSX.Element {
             whileHover={{ filter: "grayscale(0%)" }}
             transition={{ duration: 0.2 }}
           />
-          <div className="w-full p-8 rounded-b-xl dark:bg-zinc-900">
-            <h3 className="text-2xl my-green pb-2 font-Rosehot font-bold">
+          <div className="w-full p-8 rounded-b-xl bg-white dark:bg-zinc-900">
+            <h3 className="text-2xl my-green pb-2 font-Sen font-semibold">
               {t(project.title)}
             </h3>
-            <p className=" pb-2 text-xl text-justify text-gray-500 dark:text-gray-400">
+            <p className=" pb-2 text-lg text-justify text-gray-500 dark:text-gray-400">
               {t(project.description)}
             </p>
             <div className="flex gap-2 mt-4 mb-2 justify-start items-center ">

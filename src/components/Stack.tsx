@@ -5,6 +5,7 @@ function Stack(): React.JSX.Element {
   const stack: string[] = [
     "Axios",
     "CSS",
+    "Framer-Motion",
     "Firebase",
     "Git",
     "GitHub",
@@ -12,7 +13,7 @@ function Stack(): React.JSX.Element {
     "i18next",
     "JavaScript",
     "Jest",
-    "Framer-Motion",
+    "Next",
     "React-Query",
     "React-Router",
     "React",
@@ -27,9 +28,9 @@ function Stack(): React.JSX.Element {
   const controls: AnimationControls = useAnimation();
 
   const animationProps = {
-    x: ["0%", "-80%"],
+    x: ["0%", "-70%"],
     transition: {
-      duration: 30,
+      duration: 10,
       ease: "linear" as const,
       repeat: Infinity,
     },
@@ -67,7 +68,7 @@ function Stack(): React.JSX.Element {
               alt={`${item} logo`}
               className="w-full h-full object-contain opacity-10 dark:invert"
               title={item.replace("-", " ")}
-              whileHover={{ opacity: 0.8 }}
+              whileHover={{ opacity: 0.6 }}
             />
           </div>
         ))}

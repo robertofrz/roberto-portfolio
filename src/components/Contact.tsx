@@ -22,24 +22,21 @@ function Contact(): React.JSX.Element {
   };
 
   return (
-    <div
-      id="contact"
-      className="w-[95vw] sm:w-[90vw] h-[80vh] sm:h-[80vh] text-center font-Rosehot text-zinc-500 mt-60 mb-20 flex flex-col sm:flex-row items-center justify-evenly text-2xl "
-    >
+    <div className="w-[85vw] sm:w-[70vw] h-[60vh] sm:h-[100vh] text-center text-zinc-500 mt-20 mb-38 sm:-mb-20 flex flex-col sm:flex-row items-center justify-evenly text-2xl">
       <img
         src="/memojis/call.png"
         alt="making a call memoji"
         className="w-60"
       />
       <div className="flex flex-col items-center gap-10 h-[50%] w-[60%] ">
-        <h2 className="text-4xl sm:text-6xl w-[80vw] sm:w-full my-green">
+        <h2 className="text-4xl sm:text-5xl w-[80vw] sm:w-full my-green font-medium font-Sen">
           {t("call")}
         </h2>
-        <div className="flex flex-col sm:flex-row justify-evenly items-center gap-10 w-full h-[80%]   ">
-          <div className="flex flex-col text-xl gap-2 items-center w-[80vw] sm:w-[60%] font-Andika">
+        <div className="flex flex-col sm:flex-row justify-evenly items-center gap-2 w-full h-[80%]   ">
+          <div className="flex flex-col text-lg gap-2 items-center w-[80vw] sm:w-[60%] font-Andika">
             <div>
               <div className=" rounded-xl flex gap-2 shadow shadow-zinc-200  border border-zinc-200  dark:border-zinc-900 dark:shadow-zinc-900">
-                <p className="p-1.5 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500">
+                <p className="p-1.5 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500 font-Montserrat">
                   robertofrz94@gmail.com
                 </p>
                 <button
@@ -65,7 +62,7 @@ function Contact(): React.JSX.Element {
             </div>
             <div>
               <div className=" rounded-xl flex gap-2 shadow shadow-zinc-200  border border-zinc-200  dark:border-zinc-900 dark:shadow-zinc-900">
-                <p className="p-1.5 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500">
+                <p className="p-1.5 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500 font-Montserrat">
                   +5511937274647
                 </p>
                 <button

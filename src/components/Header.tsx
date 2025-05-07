@@ -33,7 +33,7 @@ function Header(): React.JSX.Element {
   }
 
   return (
-    <header className="flex justify-between fixed w-[96%] text-zinc-500 p-4 h-16 font-Rosehot z-10 backdrop-blur-sm">
+    <header className="flex justify-between fixed w-[90vw] text-zinc-500 p-4 h-16 font-Montserrat z-10 backdrop-blur-sm">
       <div className="my-green">
         <motion.button
           whileHover={{ scale: 1.1 }}
@@ -58,7 +58,7 @@ function Header(): React.JSX.Element {
           />
         </motion.button>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center text-zinc-500 gap-2">
         <p>{t("light")}</p>
 
         <label

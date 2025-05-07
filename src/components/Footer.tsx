@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 function Footer(): React.JSX.Element {
   const { t } = useTranslation();
   return (
-    <footer className="mt-10 flex justify-center gap-16 w-[96%] text-sm text-zinc-500 p-4 h-16 font-Andika">
+    <footer className="bottom-0 mt-10 flex justify-center gap-10 w-[100vw] text-sm text-zinc-500 p-4 h-12 font-Montserrat">
       <div>
         &copy; <span>{new Date().getFullYear()}</span> Roberto Ferraz.
       </div>

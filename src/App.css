@@ -27,7 +27,7 @@
 .customBtn {
   padding: 0.5rem; /* p-2 */
   background-color: #52662b;
-  color: rgb(211, 211, 211);
+  color: white;
   border-radius: 0.25rem;
   cursor: pointer;
   box-shadow: 0 1px 2px 0 rgba(74, 79, 90, 0.5);

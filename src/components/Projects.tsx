@@ -23,7 +23,7 @@ function Projects(): React.JSX.Element {
       {projects.map((project) => (
         <div
           key={project.title}
-          className=" w-full flex-shrink-0 border border-gray-300 rounded-xl shadow-lg shadow-zinc-200 dark:shadow-zinc-950 sm:h-full flex flex-col justify-between items-center dark:border-zinc-800"
+          className=" w-full sm:w-[72%] flex-shrink-0 border border-gray-300 rounded-xl shadow-lg shadow-zinc-200 dark:shadow-zinc-950 sm:h-full flex flex-col justify-between items-center dark:border-zinc-800"
         >
           <motion.img
             src={project.screenshot}
@@ -33,7 +33,7 @@ function Projects(): React.JSX.Element {
             whileHover={{ filter: "grayscale(0%)" }}
             transition={{ duration: 0.2 }}
           />
-          <div className="w-full p-8 rounded-b-xl bg-white dark:bg-zinc-900">
+          <div className="w-full p-6 rounded-b-xl bg-white dark:bg-zinc-900">
             <h3 className="text-2xl my-green pb-2 font-Sen font-semibold">
               {t(project.title)}
             </h3>

@@ -5,12 +5,12 @@
   "welcome1": "Oi, eu sou",
   "welcome2": "e sou Desenvolvedor Frontend, moldando a web uma linha de código por vez.",
   "project1": {
-    "title": "codeHire",
-    "description": "Uma plataforma para profissionais de tecnologia criarem currículos otimizados para passar por sistemas de rastreamento de candidatos (ATS)."
+    "title": "SoloDev",
+    "description": "Uma plataforma onde estudantes de tecnologia encontram diversos formatos de conteúdo em um só lugar, usando as APIs do Google, YouTube e OpenAI."
   },
   "project2": {
-    "title": "Projeto de Autenticação",
-    "description": "Sistema de autenticação com Firebase, permitindo login com e-mail/senha e conta Google."
+    "title": "codeHire",
+    "description": "Uma plataforma para profissionais de tecnologia criarem currículos otimizados para passar por sistemas de rastreamento de candidatos (ATS)."
   },
   "project3": {
     "title": "Sky Watch",

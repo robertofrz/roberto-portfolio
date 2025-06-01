@@ -5,12 +5,12 @@
   "welcome1": "Hi I'm",
   "welcome2": "and I'm a Frontend Developer crafting the web, one line at a time.",
   "project1": {
-    "title": "codeHire",
-    "description": "A platform for tech professionals to create resumes optimized to pass ATS."
+    "title": "SoloDev",
+    "description": "A platform where tech students find multiple study formats in one place using Google, YouTube and OpenAI APIs."
   },
   "project2": {
-    "title": "Authentication Project",
-    "description": "A Firebase-based auth system with email/password and Google login support."
+    "title": "codeHire",
+    "description": "A platform for tech professionals to create resumes optimized to pass ATS."
   },
   "project3": {
     "title": "Sky Watch",

@@ -21,13 +21,13 @@ function AboutMe(): React.JSX.Element {
           </p>
         </div>
         <div className="flex justify-center flex-col sm:flex-row mb-8 items-center gap-8">
-          <p className="order-2 sm:order-1 font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify">
+          <p className="order-2 sm:order-1 font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify mt-4">
             {t("personal2")}
           </p>
           <img
             src="./passport.png"
             alt="image of a laptop and a passport on top of a world map"
-            className="w-60 rounded order-1 sm:order-2"
+            className="w-60 rounded-xl order-1 sm:order-2"
           />
         </div>
         <p className="font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify">

@@ -34,6 +34,16 @@ function Projects(): React.JSX.Element {
             transition={{ duration: 0.2 }}
           />
           <div className="w-full p-6 rounded-b-xl bg-white dark:bg-zinc-900">
+            <div className="flex flex-wrap mb-4 gap-2">
+              {project.stack.map((tool) => (
+                <div
+                  key={tool}
+                  className="w-fit text-sm py-1 px-2 rounded-lg text-[#52662b] font-semibold border border-[#52662b] whitespace-nowrap"
+                >
+                  {tool}
+                </div>
+              ))}
+            </div>
             <h3 className="text-2xl my-green pb-2 font-Sen font-semibold">
               {t(project.title)}
             </h3>

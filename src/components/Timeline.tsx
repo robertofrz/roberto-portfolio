@@ -20,7 +20,7 @@ function Timeline(): React.JSX.Element {
         {t("timeline")}
       </h2>
       <div className="flex flex-col items-center justify-center w-full ">
-        <div className="flex justify-center px-2 py-4 gap-2 rounded-t-xl w-full sm:w-[70%] bg-zinc-200 dark:bg-zinc-900 shadow-lg">
+        <div className="flex justify-center px-2 pt-5 pb-1 gap-3 rounded-t-xl w-full sm:w-[70%] bg-zinc-200 dark:bg-zinc-900 shadow-lg">
           {techs.map((tech) => (
             <div key={tech}>
               <img

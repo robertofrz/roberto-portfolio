@@ -9,7 +9,7 @@ function AboutMe(): React.JSX.Element {
         {t("aboutMe")}
       </h2>
 
-      <div className="flex flex-col justify-center items-center  p-6 rounded-xl dark:bg-zinc-900">
+      <div className="flex flex-col justify-center items-center  p-6">
         <div className="flex flex-col sm:flex-row justify-center sm:-mb-2 mb-10  items-center gap-8">
           <img
             src="./memojis/meditating.png"

@@ -36,7 +36,7 @@ function Contact(): React.JSX.Element {
           <div className="flex flex-col text-lg gap-2 items-center w-[80vw] sm:w-[60%] font-Andika">
             <div>
               <div className=" rounded-xl flex gap-2 shadow shadow-zinc-200  border border-zinc-200  dark:border-zinc-900 dark:shadow-zinc-900">
-                <p className="p-1.5 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500 font-Montserrat">
+                <p className="py-1.5 px-3 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500 font-Montserrat">
                   robertofrz94@gmail.com
                 </p>
                 <button
@@ -62,7 +62,7 @@ function Contact(): React.JSX.Element {
             </div>
             <div>
               <div className=" rounded-xl flex gap-2 shadow shadow-zinc-200  border border-zinc-200  dark:border-zinc-900 dark:shadow-zinc-900">
-                <p className="p-1.5 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500 font-Montserrat">
+                <p className="py-1.5 px-3 h-[100%] m-0 border-r border-r-zinc-200 dark:border-r-zinc-900 dark:text-zinc-500 font-Montserrat">
                   +5511937274647
                 </p>
                 <button

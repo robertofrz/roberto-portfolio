@@ -6,15 +6,15 @@
   "welcome2": "e sou Desenvolvedor Frontend, moldando a web uma linha de código por vez.",
   "project1": {
     "title": "SoloDev",
-    "description": "Uma plataforma onde estudantes de tecnologia encontram diversos formatos de conteúdo em um só lugar, usando as APIs do Google, YouTube e OpenAI."
+    "description": "Uma plataforma de aprendizagem centralizada para estudantes de tecnologia acessarem resumos gerados por IA, exercícios, links de documentação e vídeos educacionais. Tudo em um só lugar."
   },
   "project2": {
     "title": "codeHire",
-    "description": "Uma plataforma para profissionais de tecnologia criarem currículos otimizados para passar por sistemas de rastreamento de candidatos (ATS)."
+    "description": "Uma plataforma para profissionais de tecnologia criarem currículos otimizados para passar pelo ATS, com edição em tempo real, dicas de boas práticas, navegação fluida e persistência de dados."
   },
   "project3": {
     "title": "Sky Watch",
-    "description": "Um aplicativo que fornece dados meteorológicos em tempo real usando WeatherAPI e GeolocationAPI."
+    "description": "Um aplicativo de clima com dados em tempo real. Possui recursos como busca por cidade, alternância entre °C/°F e gerenciamento de favoritos."
   },
   "deployed": "Publicado",
   "repository": "Repositório",

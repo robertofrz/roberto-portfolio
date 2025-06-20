@@ -6,15 +6,15 @@
   "welcome2": "and I'm a Frontend Developer crafting the web, one line at a time.",
   "project1": {
     "title": "SoloDev",
-    "description": "A platform where tech students find multiple study formats in one place using Google, YouTube and OpenAI APIs."
+    "description": "A centralized learning platform for tech students to access AI-generated summaries, exercises, documentation links, and educational videos. All in one place."
   },
   "project2": {
     "title": "codeHire",
-    "description": "A platform for tech professionals to create resumes optimized to pass ATS."
+    "description": "A platform for tech professionals to create resumes optimized to pass ATS with real-time editing, best-practice tips, smooth navigation and data persistence."
   },
   "project3": {
     "title": "Sky Watch",
-    "description": "An App that provides real-time weather data using WeatherAPI and GeolocationAPI."
+    "description": "A weather app with real-time data. Features include city search, °C/°F toggle and favorite management. "
   },
   "deployed": "Deployed",
   "repository": "Repository",

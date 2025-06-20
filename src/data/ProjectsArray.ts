@@ -5,6 +5,7 @@ type projectItem = {
   demo: string;
   deployed: string;
   repository: string;
+  stack: string[];
 };
 
 type projectsType = projectItem[];
@@ -17,6 +18,15 @@ const projects: projectsType = [
     demo: "https://youtu.be/Thc-Ek7RRWc",
     deployed: "https://solodev-project.vercel.app",
     repository: "https://github.com/robertofrz/solo-dev",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Clerk",
+      "Google Search API",
+      "OpenAI API",
+      "YouTube Data API",
+    ],
   },
   {
     title: "project2.title",
@@ -25,6 +35,14 @@ const projects: projectsType = [
     demo: "https://youtu.be/A43_cVhBIsc",
     deployed: "https://code-hire-cvbuilder.vercel.app/",
     repository: "https://github.com/robertofrz/code-hire",
+    stack: [
+      "React.js",
+      "JavaScript",
+      "CSS",
+      "React Router",
+      "Context API",
+      "localStorage",
+    ],
   },
   {
     title: "project3.title",
@@ -33,6 +51,15 @@ const projects: projectsType = [
     demo: "https://youtu.be/N6qJPXD1wNo",
     deployed: "https://robertofrz.github.io/sky-watch/",
     repository: "https://github.com/robertofrz/sky-watch",
+    stack: [
+      "React.js",
+      "JavaScript",
+      "CSS Modules",
+      "Zustand",
+      "React Query",
+      "Geolocation API",
+      "Weather API",
+    ],
   },
 ];
 

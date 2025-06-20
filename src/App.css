@@ -28,7 +28,7 @@
   padding: 0.5rem; /* p-2 */
   background-color: #52662b;
   color: white;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   box-shadow: 0 1px 2px 0 rgba(74, 79, 90, 0.5);
   transition: all 0.2s ease;

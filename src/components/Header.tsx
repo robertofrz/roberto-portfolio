@@ -33,7 +33,7 @@ function Header(): React.JSX.Element {
   }
 
   return (
-    <header className="flex justify-between fixed w-[90vw] text-zinc-500 p-4 h-16 font-Montserrat z-10 backdrop-blur-sm">
+    <header className="flex justify-between items-center fixed w-[90vw] text-zinc-500 p-4 h-16 font-Montserrat z-10 backdrop-blur-sm">
       <div className="my-green">
         <motion.button
           whileHover={{ scale: 1.1 }}
@@ -42,7 +42,7 @@ function Header(): React.JSX.Element {
           className="text-xl cursor-pointer mr-4"
           onClick={changeLanguage}
         >
-          <img src="/icons/eua-icon.png" alt="eua flag icon" className="w-6" />
+          <img src="/icons/eua-icon.png" alt="eua flag icon" className="w-7" />
         </motion.button>
         <motion.button
           whileHover={{ scale: 1.1 }}
@@ -54,7 +54,7 @@ function Header(): React.JSX.Element {
           <img
             src="/icons/brazil-icon.png"
             alt="brazil flag icon"
-            className="w-6"
+            className="w-7"
           />
         </motion.button>
       </div>

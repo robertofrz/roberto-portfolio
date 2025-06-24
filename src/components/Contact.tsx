@@ -29,7 +29,7 @@ function Contact(): React.JSX.Element {
         className="w-60"
       />
       <div className="flex flex-col items-center gap-10 h-[50%] w-[60%] ">
-        <h2 className="text-4xl sm:text-5xl w-[80vw] sm:w-full my-green font-medium font-Sen">
+        <h2 className="text-[2.625rem] sm:text-6xl w-[90vw] sm:w-full my-green font-medium font-Sen">
           {t("call")}
         </h2>
         <div className="flex flex-col sm:flex-row justify-evenly items-center gap-2 w-full h-[80%]   ">

@@ -38,7 +38,7 @@ function Timeline(): React.JSX.Element {
         </div>
 
         <div className="rounded-b-xl  dark:bg-zinc-900 p-4 bg-zinc-200 mb-4 shadow-lg">
-          <p className="font-Montserrat text-lg text-zinc-600 dark:text-zinc-400 dark:bg-zinc-800 dark:border-zinc-700 bg-zinc-100 text-justify p-4 border-zinc-300 border-2 rounded-b-xl">
+          <p className="font-Montserrat text-lg text-zinc-600 dark:text-zinc-400 dark:bg-zinc-800 dark:border-zinc-700 bg-zinc-50 text-justify p-4 border-zinc-300 border-2 rounded-b-xl">
             {t(selectedTech)}
           </p>
         </div>

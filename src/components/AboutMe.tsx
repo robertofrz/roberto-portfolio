@@ -16,12 +16,12 @@ function AboutMe(): React.JSX.Element {
             alt="meditating memoji"
             className="w-55 -mb-4 -mt-6"
           />
-          <p className="font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify">
+          <p className="font-Montserrat text-lg text-zinc-500 text-justify">
             {t("personal1")}
           </p>
         </div>
         <div className="flex justify-center flex-col sm:flex-row mb-8 items-center gap-8">
-          <p className="order-2 sm:order-1 font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify mt-4">
+          <p className="order-2 sm:order-1 font-Montserrat text-lg text-zinc-500 text-justify mt-4">
             {t("personal2")}
           </p>
           <img
@@ -30,7 +30,7 @@ function AboutMe(): React.JSX.Element {
             className="w-60 rounded-xl order-1 sm:order-2"
           />
         </div>
-        <p className="font-Montserrat text-lg text-zinc-700 dark:text-zinc-400 text-justify">
+        <p className="font-Montserrat text-lg text-zinc-500 text-justify">
           {t("personal3")}
         </p>
       </div>
